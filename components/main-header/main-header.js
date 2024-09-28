@@ -10,7 +10,13 @@ const MainHeader = () => {
       <MainHeaderBackground />
       <header className={classes.header}>
         <Link className={classes.logo} href="/">
-          <Image src={logoImg.src} priority />
+          <Image
+            src={logoImg.src}
+            alt="a plate with food"
+            priority
+            width={16}
+            height={9}
+          />
           Foods
         </Link>
         <nav className={classes.nav}>
